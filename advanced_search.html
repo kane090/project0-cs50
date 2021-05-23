@@ -3,22 +3,35 @@
     <head>
         <title>Google Advanced Search</title>
         <link rel="stylesheet" href="styles.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
     </head>
     <body>
         <div id="links">
             <a href="index.html">Google Search</a>
         </div>
-        <form action="https://www.google.com/search">
-            Find pages with...
-            all these words:
-            <input type="text" name="as_q">
-            this exact word or phrase:
-            <input type="text" name="as_epq">
-            any of these words:
-            <input type="text" name="as_oq">
-            none of these words:
-            <input type="text" name="as_eq">
-            <button type="submit">Google Advanced Search</button>
-        </form>
+        <div id="google_logo">
+            <img src="google_image.png" alt="Google" width="74" height="24">
+        </div>
+        <p style="color: #DE453C; font-size: x-large;" id="title">Advanced Search</p>
+        <p style="border-bottom: 1px solid #EBEBEB;"></p>
+        <div id="text_body">
+            <form action="https://www.google.com/search">
+                <h3 style="font-weight: normal;">Find pages with...</h3>
+                <label>all these words:</label>
+                <input type="text" name="as_q">
+                <br>
+                <label>this exact word or phrase:</label>
+                <input type="text" name="as_epq">
+                <br>
+                <label>any of these words:</label>
+                <input type="text" name="as_oq">
+                <br>
+                <label>none of these words:</label>
+                <input type="text" name="as_eq">
+                <br>
+                <button type="submit">Advanced Search</button>
+            </form>
+        </div>
     </body>
 </html>

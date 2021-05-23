@@ -2,6 +2,7 @@
     position: absolute;
     top: 10px;
     right: 10px;
+    font-weight: bold;
 }
 
 #google_search {
@@ -16,10 +17,83 @@
     width: 425px;
     height: 30px;
     border-radius: 18px;
-    padding-left: 10px;
+    padding-left: 30px;
     padding-right: 10px;
+}
+
+#text_box_image {
+    width: 425px;
+    height: 30px;
+    border-radius: 18px;
+    padding-left: 30px;
+    padding-right: 40px;
 }
 
 #button {
     padding-top: 15px;
+}
+
+#google_images {
+    position: relative;
+    bottom: 22px;
+    left: 105px;
+}
+
+#search_icon {
+    position: relative;
+    text-align: left;
+    bottom: 28px;
+    left: 10px;
+    width: 15px;
+    height: 2px;
+}
+
+#submit_button {
+    position: relative;
+    bottom: 30px;
+    left: 190px;
+    border: 0px;
+}
+
+#submit_icon {
+    width: 19px;
+    height: 19px;
+}
+
+#google_logo {
+    padding-top: 9px;
+    padding-left: 9px;
+}
+
+br {
+    line-height: 300%;
+}
+
+#text_body, p {
+    padding-left: 40px;
+}
+
+#text_body {
+    padding-top: 7px;
+}
+
+#text_body label {
+    width: 200px;
+    display: inline-block;
+}
+
+#text_body input {
+    width: 400px;
+    height: 29px;
+}
+
+#text_body button {
+    position: relative;
+    background-color: #478AF8;
+    color: white;
+    font-weight: bold;
+    font-size: 11px;
+    padding: 9px;
+    margin-top: 12px;
+    left: 490px;
 }
