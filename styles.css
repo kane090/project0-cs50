@@ -29,8 +29,13 @@
     padding-right: 40px;
 }
 
-#button {
-    padding-top: 15px;
+#button button {
+    margin-top: 15px;
+    border: none;
+}
+
+#button button:hover {
+    border: 1px solid #DADCE0;
 }
 
 #google_images {
@@ -61,8 +66,8 @@
 }
 
 #google_logo {
-    padding-top: 9px;
-    padding-left: 9px;
+    padding-top: 15px;
+    padding-left: 15px;
 }
 
 br {
